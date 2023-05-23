@@ -1,0 +1,11 @@
+#staus-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  background-color: rgb(251, 241, 242);
+  color: var(--black-color);
+}
+
+#staus-bar i {
+  font-size: 15px;
+}

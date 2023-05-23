@@ -1,0 +1,65 @@
+.welcome-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.welcome__message {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: var(--black-color);
+}
+
+.welcome__message div:first-child {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.welcome__message div:last-child {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.log-in {
+  display: flex;
+  flex-direction: column;
+}
+
+.log-in__form {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-bottom: 20px;
+}
+
+.log-in__form input {
+  padding: 8px;
+  margin: 10px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.log-in__form input::placeholder {
+  font-size: 18px;
+}
+.log-in__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.log-in__button {
+  width: 80vw;
+  font-size: 18px;
+  margin: 3px;
+  padding: 10px;
+  background-color: var(--pink-color);
+  border-radius: 10px;
+  color: var(--black-color);
+}
+
+.find-account {
+  margin-top: 20px;
+  color: var(--black-color);
+}
