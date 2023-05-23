@@ -1,9 +1,12 @@
 #staus-bar {
   display: flex;
   justify-content: center;
-  margin: 5px;
   background-color: rgb(251, 241, 242);
   color: var(--black-color);
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .status-bar__column {

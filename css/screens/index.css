@@ -24,13 +24,13 @@
 }
 
 #login-form input {
-  width: 85vw;
+  width: 85%;
   font-size: 18px;
   color: var(--black-color);
 }
 
 .login-form__input {
-  border-bottom: 1px solid rgb(209, 209, 209);
+  border-bottom: 1px solid var(--border-color);
   transition: border-color 0.3s ease-in-out;
   margin-bottom: 10px;
   padding: 10px 0px;
