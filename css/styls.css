@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 @import 'reset.css';
-@import 'index.css';
-@import 'status-bar.css';
 @import 'variables.css';
+
+/* components */
+@import 'components/status-bar.css';
+
+/* screens */
+@import 'screens/index.css';
 
 * {
   box-sizing: border-box;
@@ -9,4 +14,5 @@
 
 body {
   background-color: rgb(251, 241, 242);
+  font-family: 'Poppins', sans-serif;
 }

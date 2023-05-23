@@ -7,7 +7,7 @@
 
 .welcome-header div:first-child {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 
@@ -45,7 +45,7 @@
   margin-top: 20px;
   margin-bottom: 8px;
   border-radius: 8px;
-  padding: 13px 0;
+  padding: 15px 0;
   cursor: pointer;
 }
 

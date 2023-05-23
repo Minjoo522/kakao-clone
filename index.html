@@ -29,14 +29,21 @@
         log in with your email or phone number.
       </div>
     </header>
-    <form id="login-form">
+    <form action="friends.html" method="get" id="login-form">
       <input
-        class="login-form__input"
         required
+        name="username"
+        class="login-form__input"
         type="text"
         placeholder="Email or phone number"
       />
-      <input class="login-form__input" type="password" placeholder="Password" />
+      <input
+        required
+        name="password"
+        class="login-form__input"
+        type="password"
+        placeholder="Password"
+      />
       <input class="login-form__btn" type="submit" value="Log In" />
       <a href="#">Find kakao Account or Password</a>
     </form>
