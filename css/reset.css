@@ -123,3 +123,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+input {
+  border: none;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}

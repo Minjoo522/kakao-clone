@@ -1,63 +1,54 @@
-.welcome-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
-  padding: 5px;
-}
-
-.welcome__message {
+.welcome-header {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 150px;
   margin-bottom: 30px;
   color: var(--black-color);
 }
 
-.welcome__message div:first-child {
+.welcome-header div:first-child {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.welcome__message div:last-child {
+.welcome-header div:last-child {
   font-size: 20px;
-  margin-bottom: 30px;
 }
 
-.log-in {
+#login-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 5px;
 }
 
-.log-in__form {
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
-  margin-bottom: 20px;
-}
-
-.log-in__form input {
-  padding: 8px;
-  margin: 10px;
-  border-bottom: 1px solid rgb(207, 207, 207);
-}
-
-.log-in__form input::placeholder {
-  font-size: 18px;
-}
-.log-in__buttons {
-  display: flex;
-  flex-direction: column;
-}
-
-.log-in__button {
+#login-form input {
   width: 80vw;
   font-size: 18px;
-  margin: 3px;
-  padding: 10px;
-  background-color: var(--pink-color);
-  border-radius: 10px;
+  padding: 10px 0px;
   color: var(--black-color);
+}
+
+#login-form input:not([type='submit']) {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  transition: border-color 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+#login-form input:focus {
+  border-color: var(--pink-color);
+}
+
+#login-form input:nth-child(3) {
+  margin-top: 20px;
+}
+
+#login-form input[type='submit'] {
+  background-color: var(--pink-color);
+  margin-bottom: 8px;
+  border-radius: 10px;
+  padding: 13px;
 }
 
 .find-account {
