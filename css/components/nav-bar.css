@@ -1,0 +1,15 @@
+.nav {
+  background-color: var(--pink-color);
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+}
+
+.nav__link {
+  color: var(--black-color);
+  /* padding: 20px; */
+}
