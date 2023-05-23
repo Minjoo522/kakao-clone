@@ -49,9 +49,10 @@
   margin-bottom: 8px;
   border-radius: 10px;
   padding: 13px;
+  cursor: pointer;
 }
 
-.find-account {
+#login-form a {
   margin-top: 20px;
   color: var(--black-color);
 }
