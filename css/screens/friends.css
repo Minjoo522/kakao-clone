@@ -22,26 +22,6 @@
   margin: 0px 5px;
 }
 
-.friends-main__user {
-  display: flex;
-  width: 95%;
-  align-items: center;
-  justify-content: left;
-  margin-bottom: 15px;
-}
-
-.frinds-main__user-image img {
-  width: 60px;
-  border: 1px solid var(--border-color);
-  border-radius: 25px;
-  margin-right: 10px;
-}
-
-.friends-main__user-name {
-  font-size: 20px;
-  font-weight: 600;
-}
-
 .friends-main__channel {
   display: flex;
   justify-content: space-between;

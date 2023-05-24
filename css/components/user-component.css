@@ -1,0 +1,52 @@
+.user-component {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 15px;
+}
+
+.user-component__image img {
+  width: 55px;
+  height: 55px;
+  border: 1px solid var(--border-color);
+  border-radius: 23px;
+  margin-right: 10px;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component__name {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-color);
+}
+
+.user-component__name-sm {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.user-component__subtitle {
+  margin-top: 5px;
+  font-size: 15px;
+  color: var(--gray-color);
+}
+
+.user-component__image-lg img {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__friend {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends-main__friend-number {
+  margin-right: 3px;
+}
