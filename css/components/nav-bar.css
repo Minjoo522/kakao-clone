@@ -15,16 +15,13 @@
 
 .nav__link {
   color: var(--black-color);
-}
-
-.nav__btn-comment {
   position: relative;
 }
 
 .nav__badge-comment {
   position: absolute;
   right: -10px;
-  top: -13px;
+  top: -10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,14 +34,10 @@
   border-radius: 50%;
 }
 
-.nav__btn-more {
-  position: relative;
-}
-
 .nav__badge-more {
   position: absolute;
   right: -10px;
-  top: -10px;
+  top: -5px;
   background-color: var(--red-color);
   width: 8px;
   height: 8px;
