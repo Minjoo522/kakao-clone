@@ -44,9 +44,6 @@
   position: absolute;
   right: -10px;
   top: -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: var(--red-color);
   width: 8px;
   height: 8px;
