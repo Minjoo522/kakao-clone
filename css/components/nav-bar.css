@@ -15,3 +15,41 @@
 .nav__link {
   color: var(--black-color);
 }
+
+.nav__btn-comment {
+  position: relative;
+}
+
+.nav__badge-comment {
+  position: absolute;
+  right: -10px;
+  top: -13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  background-color: var(--red-color);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.nav__btn-more {
+  position: relative;
+}
+
+.nav__badge-more {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  background-color: var(--red-color);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}

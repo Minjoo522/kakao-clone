@@ -23,6 +23,18 @@
       </div>
     </div>
 
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Friends</h1>
+      </div>
+      <div class="header__icon">
+        <a href="#"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></a>
+        <a href="#"><i class="fa-regular fa-user fa-2xl"></i></a>
+        <a href="#"><i class="fa-solid fa-music fa-2xl"></i></a>
+        <a href="#"><i class="fa-solid fa-gear fa-2xl"></i></a>
+      </div>
+    </header>
+
     <main class="friends-main">
       <div class="frinds-main__notice">
         <span><i class="fa-solid fa-circle-exclamation"></i></span>
@@ -30,7 +42,7 @@
         <span><i class="fa-solid fa-angle-right"></i></span>
       </div>
       <div class="friends-main__user">
-        <span
+        <span class="frinds-main__user-image"
           ><img
             src="https://avatars.githubusercontent.com/u/131349867?v=4"
             alt="user profile image"
@@ -40,18 +52,19 @@
 
       <div class="friends-main__channel">
         <span class="friends-main__channel-name">Channel</span>
-        <span><i class="fa-solid fa-angle-down"></i></span>
+        <span><i class="fa-solid fa-angle-up"></i></span>
       </div>
       <div class="friends-main__friend">
-        <span
-          ><img
-            src="https://avatars.githubusercontent.com/u/131349867?v=4"
-            alt="friend profile image"
-        /></span>
-      </div>
-      <div class="friends-main__user-number">
-        <span>2</span>
-        <span><i class="fa-solid fa-angle-right"></i></span>
+        <div class="friends-main__friend-column">
+          <span class="friends-main__friend-image"
+            ><img src="css/img/panda.1.jpeg" alt="friend profile image"
+          /></span>
+          <span class="friends-main__friend-name">Yujin</span>
+        </div>
+        <div class="friends-main__friend-number">
+          <span>2</span>
+          <span><i class="fa-solid fa-angle-right"></i></span>
+        </div>
       </div>
     </main>
 
@@ -62,20 +75,22 @@
             ><i class="fa-solid fa-user fa-2xl"></i
           ></a>
         </li>
-        <li class="nav__btn">
+        <li class="nav__btn-comment">
           <a class="nav__link" href="#"
             ><i class="fa-regular fa-comment fa-2xl"></i
           ></a>
+          <div class="nav__badge-comment">1</div>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="#"
             ><i class="fa-solid fa-magnifying-glass fa-2xl"></i
           ></a>
         </li>
-        <li class="nav__btn">
+        <li class="nav__btn-more">
           <a class="nav__link" href="#"
             ><i class="fa-solid fa-ellipsis fa-2xl"></i
           ></a>
+          <div class="nav__badge-more"></div>
         </li>
       </ul>
     </nav>

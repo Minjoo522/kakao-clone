@@ -1,0 +1,81 @@
+.friends-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.frinds-main__notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  padding: 25px;
+  background-color: var(--pink-color);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.frinds-main__notice span {
+  color: var(--black-color);
+  margin: 0px 5px;
+}
+
+.friends-main__user {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 15px;
+}
+
+.frinds-main__user-image img {
+  width: 60px;
+  border: 1px solid var(--border-color);
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.friends-main__user-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.friends-main__channel {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  padding: 15px;
+  border-top: 1px solid var(--border-color);
+  color: var(--black-color);
+  margin-bottom: 10px;
+}
+
+.friends-main__friend {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.friends-main__friend-column {
+  display: flex;
+  align-items: center;
+}
+
+.friends-main__friend-image img {
+  width: 55px;
+  border: 1px solid var(--border-color);
+  border-radius: 23px;
+  margin-right: 10px;
+}
+
+.friends-main__friend-name {
+  font-size: 15px;
+}
+
+.friends-main__friend-number {
+  margin-right: 10px;
+}
