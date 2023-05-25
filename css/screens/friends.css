@@ -31,31 +31,3 @@
   color: var(--black-color);
   margin-bottom: 10px;
 }
-
-.friends-main__friend {
-  display: flex;
-  width: 95%;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.friends-main__friend-column {
-  display: flex;
-  align-items: center;
-}
-
-.friends-main__friend-image img {
-  width: 55px;
-  border: 1px solid var(--border-color);
-  border-radius: 23px;
-  margin-right: 10px;
-}
-
-.friends-main__friend-name {
-  font-size: 15px;
-}
-
-.friends-main__friend-number {
-  margin-right: 3px;
-}
